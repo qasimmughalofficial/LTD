@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-purple {
+	background-color: #4a2847;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light-purple {
+	background-color: #936190;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-skin {
+	background-color: #f3dfcd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-skin {
+	background-color: #f9eeea;
+}
+
+/* ====================== Header ====================== */
+.header-top-cusd {
+	display: flex;
+	color: #fff;
+	padding: 10px 30px 10px 25px;
+}
+
+.services-open {
+	margin-left: auto;
+}
+
+.info-head-anchor {
+	color: #fff;
+}
+
+.info-head-anchor:hover {
+	color: #fff;
+}
+
+.header-top-cusd span {
+	margin-right: 5px;
+}
+
+.navbar-cusd {
+	display: flex;
+	padding: 10px 30px 10px 25px;
+	color: #fff;
+}
+
+.list-item {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	margin-left: auto;
+}
+
+.list-item li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	padding: 10px 20px;
+	font-weight: 600;
+	color: #fff;
 }
